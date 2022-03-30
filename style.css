@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+
+#header-part {
+  width: 100%;
+  border: 1px solid white;
+  height: 8vh;
+  background: black;
+}
+
+#header-part p {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+/* Hero Part Styling */
+
+#hero-part {
+  width: 100%;
+  border: 1px solid white;
+  height: 36vh;
+  background: black;
+  display: flex;
+  justify-content: flex-end;
+  gap: 6em;
+}
+
+#hero-part #left-hero-part {
+  width: 30%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+#hero-part #right-hero-part {
+  width: 60%;
+  height: 100%;
+  border: 1px solid white;
+}
